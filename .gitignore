@@ -1,0 +1,21 @@
+# GDAL / QGIS side files created when opening data
+*.aux.xml
+*.ovr
+*.qgs~
+*.qgz~
+*.qgd
+*.gpkg-wal
+*.gpkg-shm
+*.gpkg-journal
+
+# Outputs written while following the tutorials
+out/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

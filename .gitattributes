@@ -1,0 +1,12 @@
+# Text files: normalize line endings in the repository
+* text=auto
+
+# Binary data (never diff or convert line endings)
+*.tif   binary
+*.tiff  binary
+*.gpkg  binary
+*.qgz   binary
+*.zip   binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
