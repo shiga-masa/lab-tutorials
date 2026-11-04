@@ -6,9 +6,9 @@
 
 | フォルダ | 内容 |
 |---|---|
-| [`qgis/`](qgis/) | 研究室 QGIS（LQM01〜LQM18）。架空の InSAR・土地被覆・液状化ポリゴン・GNSS 点で QGIS の基本操作を練習する |
-| [`word/`](word/) | 研究室 Word（LWM01〜LWM44）。架空の論文原稿で、論文を書くための Word の操作を練習する（練習用ファイルと完成見本） |
-| [`powerpoint/`](powerpoint/) | 研究室 PowerPoint（LPM01〜LPM41）。架空の研究発表で、スライドとポスターを作る PowerPoint の操作を練習する（練習用ファイルと完成見本） |
+| [`qgis/`](qgis/) | QGIS（34 回、用語の説明と操作）。架空の InSAR・土地被覆・液状化ポリゴン・GNSS 点で QGIS の基本操作を練習する |
+| [`word/`](word/) | Word（LWM01〜LWM44）。架空の論文原稿で、論文を書くための Word の操作を練習する（練習用ファイルと完成見本） |
+| [`powerpoint/`](powerpoint/) | PowerPoint（LPM01〜LPM41）。架空の研究発表で、スライドとポスターを作る PowerPoint の操作を練習する（練習用ファイルと完成見本） |
 
 ## データはすべて架空です
 

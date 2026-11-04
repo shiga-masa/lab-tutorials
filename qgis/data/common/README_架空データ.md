@@ -26,16 +26,16 @@ GeoTIFF と GeoPackage のメタデータにも `DESCRIPTION=架空データ（s
 | `kaku_999901.pos` | 局 999901 の日々の座標 60 日分（空白区切り、先頭 3 行がコメント、4 行目が列名） |
 | `kaku_gnss_daily_999901.csv` | 上と同じ値の CSV |
 
-## LQMNN/（その回の開始プロジェクトと、前の回までの処理結果）
+## LQNN/（操作の回の開始プロジェクトと、前の回までの処理結果）
 
 | ファイル | 内容 |
 |---|---|
-| `LQMNN/kaku_LQMNN_start.qgz` | その回の開始プロジェクト（LQM02〜LQM18。相対パスで `../common/` などを読む） |
-| `LQM03/kaku_liq_polygons_32654.gpkg` | 液状化ポリゴンを EPSG:32654 に再投影したもの（LQM02 の結果） |
-| `LQM05/kaku_liq_dissolved_32654.gpkg`・`kaku_liq_dissolved_4326.gpkg` | 融合したポリゴン（LQM04 の結果）と、その EPSG:4326 版 |
-| `LQM06/kaku_zone_poly_4326.tif` | ポリゴンを InSAR の格子でラスタ化したもの（中 = 1。LQM05 の結果） |
-| `LQM06/kaku_zone_n1.tif`〜`kaku_zone_n3.tif` | 4 近傍で n 画素（n = 1, 2, 3）広げ・縮めたゾーン。値 1 コア・2 内縁・3 外縁・4 外側 |
-| `LQM07/kaku_zone_poly.tif`・`kaku_grow_n1.tif`・`kaku_growc_n1.tif` | ラスタ計算機の入力（0/1 のラスタ: ポリゴン、ポリゴンを 1 画素広げたもの、ポリゴンの外を 1 画素広げたもの） |
-| `LQM13/kaku_zone_stats_n1.gpkg` | ゾーンごとのコヒーレンスの統計の表（LQM12 の結果） |
-| `LQM15/kaku_lulc_clip.tif` | 結合して調査範囲で切り抜いた土地被覆（LQM14 の結果） |
-| `LQM16/kaku_lulc_grid.tif` | 土地被覆を InSAR の格子にそろえたもの（LQM15 の結果） |
+| `LQNN/kaku_LQNN_start.qgz` | その回の開始プロジェクト（`NN` は回の番号。操作の回のうち #07〜#34。相対パスで `../common/` などを読む） |
+| `LQ12/kaku_liq_polygons_32654.gpkg` | 液状化ポリゴンを EPSG:32654 に再投影したもの（#07 の結果） |
+| `LQ16/kaku_liq_dissolved_32654.gpkg`・`kaku_liq_dissolved_4326.gpkg` | 融合したポリゴン（#14 の結果）と、その EPSG:4326 版 |
+| `LQ19/kaku_zone_poly_4326.tif` | ポリゴンを InSAR の格子でラスタ化したもの（中 = 1。#16 の結果） |
+| `LQ19/kaku_zone_n1.tif`〜`kaku_zone_n3.tif` | 4 近傍で n 画素（n = 1, 2, 3）広げ・縮めたゾーン。値 1 コア・2 内縁・3 外縁・4 外側 |
+| `LQ20/kaku_zone_poly.tif`・`kaku_grow_n1.tif`・`kaku_growc_n1.tif` | ラスタ計算機の入力（0/1 のラスタ: ポリゴン、ポリゴンを 1 画素広げたもの、ポリゴンの外を 1 画素広げたもの） |
+| `LQ28/kaku_zone_stats_n1.gpkg` | ゾーンごとのコヒーレンスの統計の表（#27 の結果） |
+| `LQ30/kaku_lulc_clip.tif` | 結合して調査範囲で切り抜いた土地被覆（#29 の結果） |
+| `LQ31/kaku_lulc_grid.tif` | 土地被覆を InSAR の格子にそろえたもの（#30 の結果） |
