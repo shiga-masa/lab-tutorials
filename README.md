@@ -10,6 +10,24 @@
 | [`word/`](word/) | Word（LWM01〜LWM44）。架空の論文原稿で、論文を書くための Word の操作を練習する（練習用ファイルと完成見本） |
 | [`powerpoint/`](powerpoint/) | PowerPoint（LPM01〜LPM41）。架空の研究発表で、スライドとポスターを作る PowerPoint の操作を練習する（練習用ファイルと完成見本） |
 
+## まとめてダウンロード
+
+Git を使わなくても、講座ごとの zip と全部入りの zip をダウンロードできます。リンクは常に最新のリリースを指します。
+
+| 内容 | ダウンロード |
+|---|---|
+| QGIS | [`lab-tutorials_qgis.zip`](https://github.com/shiga-masa/lab-tutorials/releases/latest/download/lab-tutorials_qgis.zip) |
+| Word | [`lab-tutorials_word.zip`](https://github.com/shiga-masa/lab-tutorials/releases/latest/download/lab-tutorials_word.zip) |
+| PowerPoint | [`lab-tutorials_powerpoint.zip`](https://github.com/shiga-masa/lab-tutorials/releases/latest/download/lab-tutorials_powerpoint.zip) |
+| すべての講座 | [`lab-tutorials_all.zip`](https://github.com/shiga-masa/lab-tutorials/releases/latest/download/lab-tutorials_all.zip) |
+
+展開すると、次のものが入っています。
+
+| zip | 展開後の最上位フォルダ | 中身 |
+|---|---|---|
+| 講座ごと | `lab-tutorials_<講座>/` | その講座のフォルダの中身（講座の `README.md` を含む）、このページの `README_repository.md`、`LICENSE`、`LICENSE-CC-BY-4.0` |
+| すべての講座 | `lab-tutorials/` | すべての講座のフォルダ、`README.md`、`LICENSE`、`LICENSE-CC-BY-4.0` |
+
 ## データはすべて架空です
 
 QGIS の練習用データは、教材のために計算で作った架空のもので、実際の観測・測量・調査の結果ではありません。ファイル名の頭の `kaku_` は「架空」の意味です。

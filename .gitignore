@@ -19,3 +19,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Release zips built by .github/scripts/build_release_zips.py
+dist/
